@@ -1,0 +1,18 @@
+{
+  "name": "advent-of-code",
+  "version": "0.0.1",
+  "description": "A simple project to solve advent of code problems",
+  "main": "index.js",
+  "scripts": {
+    "solve": "cd 2021/$npm_config_num && ts-node solution.ts",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.12"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3"
+  }
+}
