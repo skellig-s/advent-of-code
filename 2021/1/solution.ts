@@ -1,7 +1,11 @@
 import { processLineByLine } from '../../tools/tasks';
-import { Solvable } from '../../tools/interfaces';
+import { BaseSolution } from '../../tools/interfaces';
 
-class Solution implements Solvable {
+class Solution extends BaseSolution {
+    constructor() {
+        super(1);
+    }
+
     async solveFirstTask(): Promise<number> {
         const inputData = (await processLineByLine()).map(num => +num);
         let result = 0;

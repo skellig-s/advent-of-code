@@ -4,7 +4,7 @@
   "description": "A simple project to solve advent of code problems",
   "main": "index.js",
   "scripts": {
-    "solve": "cd 2021/$npm_config_num && ts-node solution.ts",
+    "solve": "cd 2021/$npm_config_num && ts-node solution.ts"
   },
   "author": "",
   "license": "ISC",
