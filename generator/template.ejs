@@ -1,0 +1,30 @@
+import { processLineByLine } from '../../tools/tasks';
+import { BaseSolution } from '../../tools/interfaces';
+
+class Solution extends BaseSolution {
+
+    constructor() {
+        super(<%= data.number %>);
+    }
+
+    async solveFirstTask(): Promise<number> {
+        (await processLineByLine())
+
+        const result = 1;
+        console.log('part 1 answer:', result);
+        return result;
+    }
+
+    async solveSecondTask(): Promise<number> {
+        (await processLineByLine())
+
+        const result = 2;
+
+        console.log('part 2 answer:', result);
+        return result;
+    }
+}
+
+const solution = new Solution();
+solution.solveFirstTask();
+solution.solveSecondTask();
