@@ -1,5 +1,9 @@
 {
   "exclude": [
     "**/*.ejs"
-  ]
+  ],
+  "compilerOptions": {
+    "target": "es5",
+    "downlevelIteration": true
+  }
 }
